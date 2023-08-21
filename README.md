@@ -1,5 +1,9 @@
 # AppleMusicTelegrambot
 just paste L3.wvd and cookies.txt file in root directory
+pip install -r requirements.txt
+sudo apt-get install gpac
+Python3 telegram_bot.py
+
 Thanks to developer Glomatico
 https://github.com/glomatico/gamdl
 
