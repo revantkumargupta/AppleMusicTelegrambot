@@ -15,10 +15,6 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-RUN cp bin/mp4decrypt /usr/bin
-RUN cp bin/MP4Box.deb /usr/bin
-
-RUN chmod +x /usr/bin/mp4decrypt
-RUN chmod +x /usr/bin/MP4Box.deb
+sudo apt-get install gpac
 
 CMD ["bash","start.sh"]
