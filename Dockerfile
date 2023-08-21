@@ -15,6 +15,6 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-sudo apt-get install gpac
+RUN sudo apt-get install gpac
 
 CMD ["bash","start.sh"]
