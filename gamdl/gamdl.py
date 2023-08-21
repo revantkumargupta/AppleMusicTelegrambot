@@ -214,7 +214,7 @@ class Gamdl:
     def decrypt(self, encrypted_location, decrypted_location, decryption_keys):
         subprocess.run(
             [
-                "mp4decrypt",
+                "./mp4decrypt",
                 encrypted_location,
                 "--key",
                 decryption_keys,
