@@ -14,6 +14,7 @@ COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
+chmod +x mp4decrypt
 
 RUN apt-get install -y gpac
 
