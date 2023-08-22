@@ -110,7 +110,7 @@ def echo_all(message):
                         dl.fixup_song(decrypted_location, fixed_location)
                         final_location.parent.mkdir(parents=True, exist_ok=True)
                         dl.move_final(final_location, fixed_location, tags)
-                        if not False:
+                        if not True:
                             dl.make_lrc(final_location, synced_lyrics)
                         # bot.send_message(replied.chat.id, f"Downloaded {final_location}")
                         # bot.delete_message(message.chat.id, replied.message_id)
