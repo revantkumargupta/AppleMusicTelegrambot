@@ -116,7 +116,7 @@ def echo_all(message):
                         # bot.delete_message(message.chat.id, replied.message_id)
                         if os.path.exists(final_location):
                             with open(final_location, 'rb') as f:
-                                bot.send_document(message.chat.id, f)
+                                bot.send_audio(message.chat.id, f)
                             os.remove(final_location)
                 except KeyboardInterrupt:
                     exit(1)
