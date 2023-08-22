@@ -5,7 +5,7 @@ from  gamdl import Gamdl
 import traceback
 # BOT_TOKEN = os.environ.get('BOT_TOKEN')
 
-bot = telebot.TeleBot('6176986791:AAFDttuCCSpKjXMtZlGrKL6k4a2m0bbV8Vk')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(func=lambda msg: True)
 def echo_all(message):
